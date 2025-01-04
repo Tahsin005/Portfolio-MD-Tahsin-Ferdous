@@ -7,11 +7,11 @@ import ReactIcon from "./icons/ReactIcon";
 
 function Footer() {
   return (
-    <div className="flex h-8 justify-between  bg-bottombarBg px-4 text-lg text-textColor max-sm:text-sm">
+    <div className="flex justify-between h-8 px-4 text-lg bg-bottombarBg text-textColor max-sm:text-sm">
       <div className="flex items-center gap-x-3">
         <a
           className="flex items-center hover:bg-bottombarHoverBg"
-          href="https://github.com/manavss/"
+          href="https://github.com/tahsin005/"
           target="_blank"
           rel="noreferrer"
         >
@@ -26,7 +26,7 @@ function Footer() {
       <div className="flex items-center gap-x-3">
         <ReactIcon />
         <CheckIcon />
-        <div className=" cursor-pointer hover:bg-bottombarHoverBg">
+        <div className="cursor-pointer hover:bg-bottombarHoverBg">
           <BellIcon />
         </div>
       </div>
