@@ -39,7 +39,7 @@ function About() {
     { icon: codeforces, link: 'https://codeforces.com/profile/tahsin_ferdous' },
     { icon: codechef, link: 'https://www.codechef.com/users/tahsinferdous3' },
     { icon: leetcode, link: 'https://leetcode.com/u/md-tahsin-ferdous/' },
-    { icon: icpc1, link: 'https://icpc.baylor.eaccentColordu/your_profile' },
+    { icon: icpc1, link: 'https://icpc.global/ICPCID/UTK72W6QMRFY' },
   ];
 
   return (
