@@ -12,7 +12,7 @@ function Github() {
   };
 
   const filteredRepos = repos;
-  console.log(filteredRepos)
+  console.log(filteredRepos);
 
   console.log(user);
 
@@ -33,9 +33,8 @@ function Github() {
               {user ? user.public_repos : 20} Repos
             </h2>
           </div>
-
         </div>
-        <div className="pt-2 text-textColor md:block ">
+        <div className="pt-2 text-textColor md:block">
           <h2 className="text-xl md:text-2xl">
             {user ? user.bio : "I love writing frontend."}
           </h2>
@@ -48,6 +47,25 @@ function Github() {
             hideColorLegend
             hideMonthLabels
           />
+        </div>
+        <div>
+          {/* YouTube Video */}
+          <div className="mt-8">
+            <h2 className="text-2xl font-semibold text-textColor">
+              Featured Video
+            </h2>
+            <div className="relative mt-4 w-full lg:w-3/4 overflow-hidden rounded-lg aspect-video">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/Vt_WnXsNwOw?si=d--DtGRoEhyoAWlQ"
+                title="YouTube video"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
         </div>
       </div>
     </HelmetProvider>
