@@ -5,6 +5,7 @@ import gourmat from '../../assets/images/gourmat.png'
 import recipefinder from '../../assets/images/recipefinder.png'
 import bazzarBuddy from '../../assets/images/bazzarBuddy.png'
 import taskly from '../../assets/images/taskly.png'
+import billDivider from '../../assets/images/billDivider.png'
 export const project = [
   {
     title: "Daisy Man",
@@ -32,6 +33,15 @@ export const project = [
     tags: ["html", "css", "javascript"],
     sourceCode: "https://github.com/Tahsin005/Recipe-App",
     demo: "https://recipe-app-gamma-virid.vercel.app/",
+  },
+  {
+    title: "Bill Divider",
+    description:
+      "Bill Divider helps you split bills easily. Just enter your bill, select tip, and number of people to calculate the total, tip, and cost per person!",
+    image: billDivider,
+    tags: ["html", "css", "javascript"],
+    sourceCode: "https://github.com/Tahsin005/Bill-Divider",
+    demo: "https://bill-divider-umber.vercel.app/",
   },
   {
     title: "Bazzar Buddy",
