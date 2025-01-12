@@ -111,7 +111,7 @@ function About() {
             <div className="flex flex-wrap items-center justify-center gap-5">
               {cpStack.map((item, index) => (
                 <a key={index} href={item.link} target="_blank" rel="noopener noreferrer">
-                  <img src={item.icon} alt={`icon-${index}`} className="p-2 bg-white rounded-full cursor-pointer h-14 w-14" />
+                  <img src={item.icon} alt={`icon-${index}`} className="p-2 bg-white rounded-full cursor-pointer h-14 w-14 hover:scale-110 ease-in-out" />
                 </a>
               ))}
             </div>
