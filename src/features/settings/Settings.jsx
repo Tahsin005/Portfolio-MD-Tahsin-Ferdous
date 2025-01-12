@@ -4,7 +4,6 @@ import Dracula from "../../assets/images/dracula.png";
 import NightOwl from "../../assets/images/night-owl.png";
 import Github from "../../assets/images/github-dark.png";
 import Nord from "../../assets/images/nord.png";
-import Ayu from "../../assets/images/ayu.png";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
 function Settings() {
@@ -33,8 +32,6 @@ function Settings() {
       theme: "nord",
       img: Nord,
     },
-    { name: "Ayu Mirage", publisher: "teabyii", theme: "ayuMirage", img: Ayu },
-    { name: "Ayu Dark", publisher: "teabyii", theme: "ayuDark", img: Ayu },
   ];
 
   return (

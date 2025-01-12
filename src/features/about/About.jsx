@@ -17,7 +17,8 @@ import codeforces from '../../assets/icons/icons8-codeforces.-programming-compet
 import codechef from '../../assets/icons/icons8-codechef-50.png';
 import leetcode from '../../assets/icons/icons8-level-up-your-coding-skills-and-quickly-land-a-job-24.png';
 import icpc1 from '../../assets/icons/icpc1.png';
-import icpc2 from '../../assets/icons/icpc2.png';
+
+
 function About() {
   const techStack = [
     html_icon,
@@ -47,29 +48,28 @@ function About() {
       <Helmet>
         <title>MD. Tahsin Ferdous | About</title>
       </Helmet>
-      <div className="flex flex-col items-center justify-center p-8 gap-y-4 text-textColor xl:gap-y-8">
-        <div className="flex flex-col items-center gap-x-48 xl:flex-row">
-          <div className=" xl:order-2">
+      <div className="flex flex-col items-center md:items-start justify-center p-8 gap-y-4 text-textColor xl:gap-y-8">
+        <div className="flex flex-col items-center justify-center w-full gap-x-48 xl:flex-row">
+          <div className=" xl:order-2 w-full flex items-center justify-center">
             <div className=" box border-4 border-accentColor xl:h-[300px] xl:w-[300px] "></div>
           </div>
-          <div>
+          <div className="w-full md:flex md:flex-col md:items-center">
             <h1 className="text-3xl font-extrabold text-white xl:text-start xl:text-6xl">
               Full Stack <br /> Web Developer
             </h1>
-            <h2 className="text-xl max-sm:hidden">
-              Hi, I'm MD. Tahsin Ferdous. A passionate Full Stack Web Developer <br />{" "}
-              based in Dhaka, Bangladesh. 📍
+            <h2 className="text-xl">
+              Dhaka, Bangladesh. 📍
             </h2>
           </div>
         </div>
 
-        <div className="xl:flex xl:gap-x-24 ">
+        <div className="xl:flex xl:gap-x-24 w-full">
           <div className="order-1 space-y-4 text-center xl:w-1/2 ">
             <h2 className="text-2xl font-semibold text-accentColor xl:text-3xl">
               About me:
             </h2>
             <p className="text-lg font-medium leading-tight text-left text-slate-400 xl:text-xl">
-              A Computer Science and Engineering major, passionate about full-stack web development. Using Django for backend APIs and HTML, CSS, Tailwind CSS, JavaScript and React for frontend to build scalable web applications.
+            I study Computer Science and Engineering and work on web development. I use Django for the backend and HTML, CSS, Tailwind CSS, JavaScript, and React for the frontend to build web applications.
             </p>
           </div>
           <div className=" xl:w-1/2">
@@ -80,7 +80,7 @@ function About() {
               {techStack.map((item, i) => {
                 return (
                   <img
-                    className="p-2 bg-white rounded-full shadow-md cursor-pointer h-14 w-14 shadow-accentColor"
+                    className="p-2 bg-white rounded-full cursor-pointer hover:scale-110 ease-in-out h-14 w-14"
                     key={i}
                     src={item}
                     alt="tech-stack"
@@ -91,7 +91,8 @@ function About() {
           </div>
         </div>
 
-        <div className="xl:flex xl:gap-x-24 ">
+
+        <div className="xl:flex xl:gap-x-24 w-full">
           <div className="order-1 space-y-4 text-center xl:w-1/2 ">
             <h2 className="text-2xl font-semibold text-accentColor xl:text-3xl">
               Experience:
@@ -114,7 +115,7 @@ function About() {
                 </a>
               ))}
             </div>
-            <div className="mt-4 text-lg text-left text-white md:text-xl">
+            <div className="mt-4 text-lg text-center text-white md:text-xl">
               <p>Codeforces <span className="text-green-600">Pupil</span></p>
               <p><span className="text-sky-400">3 Star</span> at CodeChef</p>
               <p><span className="text-blue-500">I</span><span className="text-red-500">C</span ><span className="text-yellow-500">P</span><span>C</span> Dhaka Regional 2024 Contestant</p>

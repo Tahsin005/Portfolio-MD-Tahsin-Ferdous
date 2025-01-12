@@ -33,7 +33,7 @@ const TabsItems = [
     icon: `${json_icon}`,
   },
   {
-    name: "github.md",
+    name: "readme.md",
     path: "/github",
     icon: `${markdown_icon}`,
   },

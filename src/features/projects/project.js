@@ -1,4 +1,3 @@
-import vscode from "../../assets/images/vscode.jpg";
 import aroundtheflag from '../../assets/images/aroundtheflag.png';
 import daisyman from '../../assets/images/daisyman.png';
 import gourmat from '../../assets/images/gourmat.png'
