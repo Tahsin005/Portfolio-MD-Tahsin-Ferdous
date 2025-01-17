@@ -98,7 +98,7 @@ function About() {
               Experience:
             </h2>
             <h3 className="text-lg font-semibold text-left text-accentColor xl:text-xl">
-            Python Developer - Stealth Startup (Oct 2024 - Oct 2024, Remote){" "}
+            Python Developer - Stealth Startup (Oct 2024 - Nov 2024, Remote){" "}
             </h3>
             <ul className="text-left list-disc list-inside text-slate-400 xl:text-lg">
               <li>Developed and optimized backend systems using Python and Django REST Framework.</li>
