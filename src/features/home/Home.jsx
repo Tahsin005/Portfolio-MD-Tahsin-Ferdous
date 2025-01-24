@@ -16,7 +16,7 @@ function Home() {
         </div>
         <div className="relative z-20 flex flex-col items-start p-4 gap-y-10 md:w-full md:flex-row md:items-start md:justify-between md:px-28">
           <div>
-            <h2 className="text-3xl font-bold text-[#eee] md:text-5xl  xl:text-8xl">
+            <h2 className="text-4xl font-bold text-[#eee] md:text-5xl  xl:text-8xl">
               MD. Tahsin Ferdous
             </h2>
             <div className="w-max">
@@ -26,19 +26,19 @@ function Home() {
             </div>
             <div>
             </div>
-            <div className="mt-8 flex flex-wrap gap-4">
+            <div className="mt-8 flex flex-wrap justify-center gap-4 md:justify-start">
               <a href={resume} download="MD. Tahsin Ferdous Resume">
-                <button className="border-2 border-accentColor px-6 py-2.5 font-medium text-white transition-all hover:bg-accentColor hover:text-gray-900 md:px-9 md:text-xl">
+                <button className=" border-2 border-accentColor px-6 py-3 font-medium text-accentColor transition hover:bg-accentColor hover:text-gray-900">
                   Download Resume
                 </button>
               </a>
               <Link to="/projects">
-                <button className="bg-accentColor px-6 py-2.5 font-medium text-gray-900 transition-all hover:bg-accentColor-hover hover:text-white md:px-9 md:text-xl">
+                <button className=" bg-accentColor px-6 py-3 font-medium text-gray-900 transition hover:bg-accentColor-hover hover:text-white">
                   View Work
                 </button>
               </Link>
               <Link to="/contact">
-                <button className="border-2 border-accentColor px-6 py-2.5 font-medium text-white transition-all hover:bg-gray-900 hover:text-accentColor md:px-9 md:text-xl">
+                <button className=" border-2 border-accentColor px-6 py-3 font-medium text-accentColor transition hover:bg-gray-900 hover:text-accentColor">
                   Contact Me
                 </button>
               </Link>

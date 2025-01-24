@@ -19,9 +19,9 @@ function NavBar({ theme }) {
             })}
           </ul>
         </div>
-        <h1 className=" md:mr-auto">MD. Tahsin Ferdous-Visual Studio Code</h1>
+        <h1 className=" md:mr-auto">MD. Tahsin Ferdous - VS Code</h1>
         <div className="flex ml-auto gap-x-2">
-          <div className="w-3 h-3 bg-yellow-200 rounded-full md:h-4 md:w-4"></div>
+          <div className="w-3 h-3 bg-yellow-400 rounded-full md:h-4 md:w-4"></div>
           <div className="w-3 h-3 bg-green-500 rounded-full md:h-4 md:w-4"></div>
           <div className="w-3 h-3 bg-red-400 rounded-full md:h-4 md:w-4"></div>
         </div>

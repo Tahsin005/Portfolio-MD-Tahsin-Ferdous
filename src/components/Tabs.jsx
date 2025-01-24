@@ -5,6 +5,10 @@ import js_icon from "../assets/icons/js_icon.svg";
 import json_icon from "../assets/icons/json_icon.svg";
 import markdown_icon from "../assets/icons/markdown_icon.svg";
 import { Link, useLocation } from "react-router-dom";
+import Tab from './Tab.jsx';
+
+import styles from '../styles/Tabsbar.module.css';
+import styles2 from '../styles/Tab.module.css';
 
 const TabsItems = [
   {
@@ -28,12 +32,12 @@ const TabsItems = [
     icon: `${js_icon}`,
   },
   {
-    name: "articles.json",
+    name: "articles.js",
     path: "/articles",
     icon: `${json_icon}`,
   },
   {
-    name: "readme.md",
+    name: "tahsin.md",
     path: "/github",
     icon: `${markdown_icon}`,
   },
@@ -42,21 +46,10 @@ function Tabs() {
   const location = useLocation();
   // console.log(location);
   return (
-    <div className="flex overflow-x-auto bg-tabsBg">
+    <div className={`${styles.tabs}`}>
       {TabsItems.map((tab) => {
         return (
-          <Link
-            key={tab.name}
-            to={`${tab.path}`}
-            className={`flex ${
-              location.pathname === tab.path
-                ? " border-t-2 border-t-accentColor bg-tabActiveBg"
-                : "border-2 bg-tabBg"
-            }   min-w-max gap-x-1  border-tabBorder  px-3 text-textColor   md:py-1`}
-          >
-            <img src={tab.icon} height={20} width={20} alt="react-icon" />
-            <p className=" text-lg font-medium">{tab.name}</p>
-          </Link>
+          <Tab key={tab.name} icon={tab.icon} filename={tab.name} path={tab.path} />
         );
       })}
     </div>

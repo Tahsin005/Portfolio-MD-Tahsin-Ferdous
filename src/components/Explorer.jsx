@@ -29,12 +29,12 @@ const explorerItems = [
     icon: `${js_icon}`,
   },
   {
-    name: "articles.json",
+    name: "articles.js",
     path: "/articles",
     icon: `${json_icon}`,
   },
   {
-    name: "readme.md",
+    name: "tahsin.md",
     path: "/github",
     icon: `${markdown_icon}`,
   },
@@ -42,7 +42,7 @@ const explorerItems = [
 function Explorer() {
   const [show, setShow] = useState(true);
   return (
-    <div className="flex flex-col items-start text-white  bg-explorerBg max-sm:hidden">
+    <div className="flex flex-col items-start text-white  bg-explorerBg max-sm:hidden sm:hidden max-md:hidden md:hidden lg:block">
       <h1 className="pl-2 text-2xl font-medium uppercase">Explorer</h1>
       <div className="flex min-w-[15vw]  flex-col">
         <div

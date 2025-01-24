@@ -11,7 +11,7 @@ function projects() {
         <h1 className="pb-5 text-3xl text-textColor">
           Stuff I&apos;ve Built So Far
         </h1>
-        <div className="grid gap-y-5 md:grid-cols-2 md:gap-x-5 xl:grid-cols-4">
+        <div className="grid gap-y-5 md:grid-cols-2 md:gap-x-2 xl:grid-cols-3">
           {project.map((p) => {
             return (
               <ProjectCard

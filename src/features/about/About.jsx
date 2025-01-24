@@ -76,17 +76,15 @@ function About() {
             <h3 className="my-4 text-2xl font-semibold text-center text-accentColor underline-offset-4 max-sm:underline xl:text-3xl">
               Tech Stack{" "}
             </h3>
-            <div className="flex flex-wrap items-center justify-center gap-5">
-              {techStack.map((item, i) => {
-                return (
-                  <img
-                    className="p-2 bg-white rounded-full cursor-pointer hover:scale-110 ease-in-out h-14 w-14"
-                    key={i}
-                    src={item}
-                    alt="tech-stack"
-                  />
-                );
-              })}
+            <div className="flex flex-wrap items-center justify-center gap-6">
+              {techStack.map((item, i) => (
+                <img
+                  className="p-3 bg-white rounded-full shadow-md cursor-pointer hover:scale-105 transition-transform h-16 w-16"
+                  key={i}
+                  src={item}
+                  alt="tech-stack"
+                />
+              ))}
             </div>
           </div>
         </div>
@@ -108,18 +106,11 @@ function About() {
             <h3 className="my-4 text-2xl font-semibold text-center text-accentColor underline-offset-4 max-sm:underline xl:text-3xl">
               Competitive Programming{" "}
             </h3>
-            <div className="flex flex-wrap items-center justify-center gap-5">
-              {cpStack.map((item, index) => (
-                <a key={index} href={item.link} target="_blank" rel="noopener noreferrer">
-                  <img src={item.icon} alt={`icon-${index}`} className="p-2 bg-white rounded-full cursor-pointer h-14 w-14 hover:scale-110 ease-in-out" />
-                </a>
-              ))}
-            </div>
             <div className="mt-4 text-lg text-center text-white md:text-xl">
               <p>Codeforces <span className="text-green-600">Pupil</span></p>
               <p><span className="text-sky-400">3 Star</span> at CodeChef</p>
               <p><span className="text-blue-500">I</span><span className="text-red-500">C</span ><span className="text-yellow-500">P</span><span>C</span> Dhaka Regional 2024 Contestant</p>
-              <p className="font-semibold">Total <span className="text-purple-500">1400+</span> problems solved</p>
+              <p className="font-semibold">Total <span className="text-purple-500">1500+</span> problems solved</p>
             </div>
           </div>
         </div>

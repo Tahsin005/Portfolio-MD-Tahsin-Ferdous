@@ -3,19 +3,19 @@ function ArticleCard({ url, image, title, desc }) {
   return (
     <a
       href={url}
-      className="flex  max-w-xs cursor-pointer flex-col rounded-xl bg-articleBg  hover:shadow-lg"
+      className="flex max-w-xs flex-col overflow-hidden rounded-2xl bg-articleBg shadow-md transition"
       target="_blank"
       rel="noreferrer"
     >
       <img
         src={image}
-        className=" h-[160px] rounded-b-xl rounded-t-lg "
-        alt=""
+        className="h-[160px] w-full object-cover"
+        alt={`${title} thumbnail`}
       />
 
-      <div className="flex flex-col gap-y-2 p-4">
-        <h2 className=" text-2xl font-semibold text-accentColor">{title}</h2>
-        <p className=" text-base font-medium text-white">{desc}</p>
+      <div className="flex flex-col gap-y-4 p-4">
+        <h2 className="text-2xl font-bold text-accentColor">{title}</h2>
+        <p className="text-base leading-relaxed text-gray-400">{desc}</p>
       </div>
     </a>
   );
