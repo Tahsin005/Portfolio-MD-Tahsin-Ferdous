@@ -1,4 +1,5 @@
 function ContactSocials() {
+  const whatsappNumber = "8801795368447";
   const socials = [
     {
       social: "email",
@@ -8,7 +9,7 @@ function ContactSocials() {
     {
       social: "whatsapp",
       un: "+8801795368447",
-      href: "#",
+      href: `https://wa.me/${whatsappNumber}`,
     },
     {
       social: "github",
