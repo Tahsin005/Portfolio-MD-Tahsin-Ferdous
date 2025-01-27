@@ -19,7 +19,7 @@ function ContactSocials() {
     {
       social: "linkedin",
       un: "md-tahsin-ferdous",
-      href: "https://www.linkedin.com/in/manav-shete-aa600a194/",
+      href: "https://www.linkedin.com/in/md-tahsin-ferdous/",
     },
     {
       social: "instagram",
