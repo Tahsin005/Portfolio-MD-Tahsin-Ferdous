@@ -15,7 +15,7 @@ function Github() {
   return (
     <HelmetProvider>
       <Helmet>
-        <title>MD. Tahsin Ferdous | Github</title>
+        <title>MD. Tahsin Ferdous | Tahsin</title>
       </Helmet>
 
       <div className={`${styles.user} text-white`}>

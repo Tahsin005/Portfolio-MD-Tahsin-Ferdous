@@ -6,6 +6,11 @@ function ContactSocials() {
       href: "mailto:tahsin.ferdous3546@gmail.com",
     },
     {
+      social: "whatsapp",
+      un: "+8801795368447",
+      href: "#",
+    },
+    {
       social: "github",
       un: "tahsin005",
       href: "https://www.github.com/tahsin005/",
