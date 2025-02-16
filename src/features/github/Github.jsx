@@ -18,7 +18,7 @@ function Github() {
         <title>MD. Tahsin Ferdous | Tahsin</title>
       </Helmet>
 
-      <div className={`${styles.user} text-white`}>
+      <div className={`${styles.user} text-white flex justify-start ps-8`}>
         <div>
           <img
             src={user.avatar_url}
@@ -36,7 +36,7 @@ function Github() {
           <h3>{user.followers} followers</h3>
         </div>
       </div>
-      <div className={styles.contributions}>
+      <div className={`${styles.contributions} ps-8`}>
         <GitHubCalendar
           username={`tahsin005`}
           theme={theme}
@@ -45,7 +45,7 @@ function Github() {
         />
       </div>
       {/* Featured Video Section */}
-      <div className="mt-16">
+      <div className="mt-16 ps-8">
           <h2 className="mb-6 text-2xl font-semibold text-textColor">
             Featured Video
           </h2>

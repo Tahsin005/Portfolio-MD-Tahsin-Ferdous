@@ -21,7 +21,7 @@ function ProjectCard({ img, title, desc, tags, srcCode, demo }) {
             target="_blank"
             rel="noreferrer"
           >
-            Source Code
+            Code
           </a>
           <a
             href={demo}

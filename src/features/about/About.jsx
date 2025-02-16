@@ -12,6 +12,9 @@ import mysql from '../../assets/icons/icons8-mysql.svg';
 import postgresql from '../../assets/icons/icons8-postgresql.svg';
 import git from '../../assets/icons/git.svg';
 import github from '../../assets/icons/github.svg';
+import node from '../../assets/icons/icons8-node-js.svg'
+import express from '../../assets/icons/icons8-express-js.svg'
+import mongodb from '../../assets/icons/icons8-mongo-db-48.png'
 
 import codeforces from '../../assets/icons/icons8-codeforces.-programming-competitions-and-contests,-programming-community.-24.png';
 import codechef from '../../assets/icons/icons8-codechef-50.png';
@@ -28,6 +31,9 @@ function About() {
     c_icon,
     cpp_icon,
     js_icon,
+    node,
+    express,
+    mongodb,
     python_icon,
     django,
     mysql,
@@ -69,7 +75,7 @@ function About() {
               About me:
             </h2>
             <p className="text-lg font-medium leading-tight text-left text-slate-400 xl:text-xl">
-            I study Computer Science and Engineering and work on web development. I use Django for the backend and HTML, CSS, Tailwind CSS, JavaScript, and React for the frontend to build web applications.
+            I study Computer Science and Engineering and work on web development, building applications with Django (Python), Node.js/Express.js (JavaScript), React, HTML, CSS, Tailwind CSS, and MongoDB/Mongoose.
             </p>
           </div>
           <div className=" xl:w-1/2">

@@ -27,11 +27,18 @@ function Home() {
             <div>
             </div>
             <div className="mt-8 flex flex-wrap justify-center gap-4 md:justify-start">
-              <a href={resume} download="MD. Tahsin Ferdous Resume">
-                <button className=" border-2 border-accentColor px-6 py-3 font-medium text-accentColor transition hover:bg-accentColor hover:text-gray-900">
-                  Download Resume
+              <a
+                href="https://drive.google.com/file/d/14VSGRx4YFggYe7TZYcs_lqxOZiZip2mV/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button
+                  className="border-2 border-accentColor px-6 py-3 font-medium text-accentColor transition hover:bg-accentColor hover:text-gray-900"
+                >
+                  Resume
                 </button>
               </a>
+
               <Link to="/projects">
                 <button className=" bg-accentColor px-6 py-3 font-medium text-gray-900 transition hover:bg-accentColor-hover hover:text-white">
                   View Work
