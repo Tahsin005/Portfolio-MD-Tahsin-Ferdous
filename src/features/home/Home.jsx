@@ -28,7 +28,7 @@ function Home() {
             </div>
             <div className="mt-8 flex flex-wrap justify-center gap-4 md:justify-start">
               <a
-                href="https://drive.google.com/file/d/14VSGRx4YFggYe7TZYcs_lqxOZiZip2mV/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1scYt8xhF-bvxCGc9j85ArQiIHZoXxz0B/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
