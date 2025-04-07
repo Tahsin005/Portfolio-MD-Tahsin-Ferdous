@@ -1,17 +1,17 @@
 .tabs {
-    display: flex;
-    /* flex-wrap: wrap; */
-    overflow-x: auto;
-  }
+  display: flex;
+  /* flex-wrap: wrap; */
+  overflow-x: auto;
+}
 
-  @media screen and (max-width: 900px) {
-    .tabs {
-      width: 94vw;
-    }
+@media screen and (max-width: 900px) {
+  .tabs {
+    width: 94vw;
   }
+}
 
-  @media screen and (max-width: 600px) {
-    .tabs {
-      width: 92vw;
-    }
+@media screen and (max-width: 600px) {
+  .tabs {
+    width: 92vw;
   }
+}

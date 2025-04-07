@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import Illustration from "./Illustration";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import resume from '../../assets/resume/MD. Tahsin Ferdous Resume.pdf';
 function Home() {
   return (
     <HelmetProvider>
